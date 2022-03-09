@@ -1,0 +1,70 @@
+/* header */
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 2.5rem !important;
+    text-transform: uppercase !important;
+}
+/* index */
+.carousel-inner img{
+  height: 650px;
+}
+.moto small{
+  text-transform: uppercase;
+}
+.moto p{
+  text-transform: capitalize;
+}
+/* blog */
+.video-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.video-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* personal counseling */
+.pcTable{
+    width: 600px;
+}
+#pcApply{
+    margin-top: 10%;
+}
+
+
+/* responsive design */
+@media screen and (max-width: 992px) {
+  .carousel-inner img{
+    height: 450px;
+  }
+}
+@media screen and (max-width: 772px) {
+  .pcTable{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 430px) {
+  .pcTable{
+        width: 320px;
+    }
+}
+@media screen and (max-width: 380px) {
+  .pcTable{
+        width: 280px;
+    }
+  .carousel-inner img{
+    height: 300px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .pcTable{
+    width: 250px;
+  }
+  .eImage{
+    height: 200px;
+  }
+}
